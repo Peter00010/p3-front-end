@@ -38,7 +38,7 @@ import { useState, useEffect } from 'react';
             <div className="flex-grow">
             <div className="flex items-center justify-center h-16">
                 <span className="text-4xl font-bold">QUIZZ</span>
-                <span style={{color:"#3A55EB"}} className="text-4xl font-bold text-blue-500">WIZZ</span></div>
+                <span style={{color:"#3A55EB"}} className="text-4xl font-bold text-blue-500">WIZZzzzz</span></div>
             <ul className="px-4 py-2">
                 <li className="text-xl py-2 cursor-pointer hover:underline">HOME</li>
                 <li className="text-xl py-2 cursor-pointer hover:underline">ABOUT US</li>
