@@ -89,9 +89,9 @@ const Questions = () => {
             style={{
                 backgroundColor: "#171717",
                 width: "600px",
-                height: "600px",
+                height: "600px"
             }}
-            className="sm:m-5 md:rounded-lg p-8"
+            className=" rounded-lg p-8"
             >
             <span
                 style={{ color: "#3A55EB", fontSize: "10rem" }}
