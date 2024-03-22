@@ -70,6 +70,7 @@ const Questions = () => {
                 onMouseEnter={(e) => (e.target.style.color = "#3A55EB")}
                 onMouseLeave={(e) => (e.target.style.color = "#FFFFFF")}
                 >
+
                     <Link to="/about">ABOUT US</Link>
                 
                 </li>
@@ -103,6 +104,7 @@ const Questions = () => {
                 height: "600px"
             }}
             className="md:rounded-lg p-8"
+  
             >
             <span
                 style={{ color: "#3A55EB", fontSize: "10rem" }}
@@ -130,5 +132,3 @@ const Questions = () => {
     };
 
 export default Questions;
-
-
