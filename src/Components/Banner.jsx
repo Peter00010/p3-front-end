@@ -31,4 +31,3 @@ const Banner = () => {
     export default Banner;
 
   //this is a starting template I created for us. For frontend, all pages should have this theme
-  //this is our banner

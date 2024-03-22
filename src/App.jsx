@@ -4,6 +4,7 @@ import Questions from "./Components/Questions";
 import Help from "./Components/Help";
 import Profile from "./Components/Profile";
 import About from "./Components/About";
+import Login from "./Components/Login";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/help" element={<Help />} />
         <Route path="/about" element={<About />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/login" element={<Login/>}/>
       </Routes>
     </BrowserRouter>
   );
