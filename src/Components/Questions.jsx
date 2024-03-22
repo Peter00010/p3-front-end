@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom"
 
 const Questions = () => {
     const [question, setQuestion] = useState(null);
@@ -52,7 +53,8 @@ const Questions = () => {
                 onMouseEnter={(e) => (e.target.style.color = "#3A55EB")}
                 onMouseLeave={(e) => (e.target.style.color = "#FFFFFF")}
                 >
-                HOME
+                    <Link to="/">HOME</Link>
+                
                 </li>
                 <li
                 style={{ color: "#FFFFFF" }}
@@ -60,7 +62,8 @@ const Questions = () => {
                 onMouseEnter={(e) => (e.target.style.color = "#3A55EB")}
                 onMouseLeave={(e) => (e.target.style.color = "#FFFFFF")}
                 >
-                ABOUT US
+                    <Link to="/about">ABOUT US</Link>
+                
                 </li>
                 <li
                 style={{ color: "#FFFFFF" }}
@@ -68,7 +71,7 @@ const Questions = () => {
                 onMouseEnter={(e) => (e.target.style.color = "#3A55EB")}
                 onMouseLeave={(e) => (e.target.style.color = "#FFFFFF")}
                 >
-                HELP
+                <Link to="/help">HELP</Link>
                 </li>
                 <li
                 style={{ color: "#FFFFFF" }}
@@ -76,7 +79,7 @@ const Questions = () => {
                 onMouseEnter={(e) => (e.target.style.color = "#3A55EB")}
                 onMouseLeave={(e) => (e.target.style.color = "#FFFFFF")}
                 >
-                PROFILE
+                <Link to="/profile">PROFILE</Link>
                 </li>
             </ul>
             </div>
