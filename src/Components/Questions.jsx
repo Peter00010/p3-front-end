@@ -62,6 +62,14 @@ const Questions = () => {
                 onMouseEnter={(e) => (e.target.style.color = "#3A55EB")}
                 onMouseLeave={(e) => (e.target.style.color = "#FFFFFF")}
                 >
+                <Link to="/questions">QUIZZ</Link>
+                </li>
+                <li
+                style={{ color: "#FFFFFF" }}
+                className="text-xl py-2 cursor-pointer hover:underline"
+                onMouseEnter={(e) => (e.target.style.color = "#3A55EB")}
+                onMouseLeave={(e) => (e.target.style.color = "#FFFFFF")}
+                >
                     <Link to="/about">ABOUT US</Link>
                 
                 </li>
@@ -94,7 +102,7 @@ const Questions = () => {
                 width: "600px",
                 height: "600px"
             }}
-            className=" rounded-lg p-8"
+            className="md:rounded-lg p-8"
             >
             <span
                 style={{ color: "#3A55EB", fontSize: "10rem" }}
@@ -122,3 +130,5 @@ const Questions = () => {
     };
 
 export default Questions;
+
+
