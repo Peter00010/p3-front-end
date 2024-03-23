@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { auth } from 'firebase/config.js';
 import { Link } from "react-router-dom";
 
-c
-onst LoginPage = () => {
+const LoginPage = () => {
 
   return (
     <div>
